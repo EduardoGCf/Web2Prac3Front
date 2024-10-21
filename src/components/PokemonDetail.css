@@ -1,0 +1,86 @@
+.evolution-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.evolution-img {
+  width: 80px; /* Tamaño de la imagen de la evolución */
+}
+
+.pokemon-types {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.type-item {
+  margin-right: 10px;
+}
+
+.type-img {
+  width: 25px; /* Tamaño de la imagen del tipo */
+  margin-right: 5px;
+}
+
+.type-name {
+  font-size: 14px;
+}
+
+
+/* General container styles */
+
+
+/* Section for the main Pokemon details */
+.pokemon-info-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Pokemon image inside the info box */
+.pokemon-info-box img {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text details inside the info box */
+.pokemon-info-text {
+  max-width: 60%;
+}
+
+.pokemon-info-text h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #3e4e85;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.pokemon-info-text p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 5px;
+}
+
+/* Align the Pokédex number */
+.pokemon-info-text p.pokedex-number {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.evolution-arrow {
+  font-size: 3rem; /* Ajusta el tamaño de la flecha */
+  font-weight: bold; /* Hace la flecha más gruesa */
+}
+
+.imgg{
+  width: 500px; /* Siempre establece el ancho a 800px */
+  height: auto; /* Ajusta la altura automáticamente manteniendo la proporción */
+  object-fit: contain; /* Asegura que la imagen no se distorsione */
+}
